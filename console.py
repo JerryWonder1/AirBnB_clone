@@ -148,7 +148,7 @@ class HBNBCommand(cmd.Cmd):
         """
         args_list = self.parse_args(args)
         self.show_model(args_list)
-        
+
     def show_model(self, args_list):
         """
         Prints the string representation of an instance
@@ -196,7 +196,7 @@ class HBNBCommand(cmd.Cmd):
 
     def print_all(self, args_list):
         """
-        Prints the string representation of all instances 
+        Prints the string representation of all instances
         of model based on model_name
         Arguments:
             (list) args_list: A list containing the model_name.
